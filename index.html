@@ -152,6 +152,7 @@ In addition to my expertise in AI and ML, I am also knowledgeable in web develop
                         <a href="https://umerrawala-memory-chatbot-main-p43n3i.streamlit.app/"><img src="images/me.png" alt=""></a>
                         <div class="text">Memory Chatbot</div>
                         <p>Web App Made using Openai, Langchain and Streamlit</p>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -164,8 +165,8 @@ In addition to my expertise in AI and ML, I am also knowledgeable in web develop
                 <div class="card">
                     <div class="box">
                         <a href="https://github.com/Umerrawala/Ai-rock-paper-scizzor"><img src="images/1.png" alt=""></a>
-                        <div class="text">AI Rock Paper Scissor</div>
-                        <p>An AI program with which you can play rock paper scissor game just like you play with a person</p>
+                        <div class="text">AI Rock Paper</div>
+                        <p>An AI program with which you can play rock paper scissor.</p>
                     </div>
                 </div>
                 <div class="card">
@@ -213,7 +214,8 @@ In addition to my expertise in AI and ML, I am also knowledgeable in web develop
                         </div>
                     </div>
                 </div>
-                
+               
+                </div>
             </div>
         </div>
     </section>
@@ -224,5 +226,21 @@ In addition to my expertise in AI and ML, I am also knowledgeable in web develop
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "rawalaumer@gmail.com",
+                Password: "Famumer123",
+                To: 'rawalaumer@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New Contact form Enquiry",
+                Body: "Name : " + document.getElementById("name").value
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
 </body>
 </html>
