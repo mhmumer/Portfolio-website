@@ -16,14 +16,15 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #705151;
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #ff0000;
+    height: 200px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #000000;
 }
 
 /* all similar content styling codes */
@@ -497,7 +498,7 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid grey;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
